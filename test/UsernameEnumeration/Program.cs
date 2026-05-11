@@ -12,7 +12,7 @@ namespace UsernameEnumeration
     class Program
     {
         // Configuration
-        private const string TARGET_URL = "http://localhost:4200/bff/account/register";
+        private const string TARGET_URL = "https://shiny-telegram-qxq7rxvxq55f9qjv-4200.app.github.dev/register";
         private const string USERNAMES_FILE = "usernames.txt";
         private const string OUTPUT_FILE = "confirmed_users.txt";
         private const int MAX_CONCURRENT_REQUESTS = 10;
